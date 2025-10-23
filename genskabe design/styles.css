@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(26, 26, 26);
+    
+}
+h1 {
+    color: white;
+    text-align-last: center;
+}
+p{
+    color: white;
+}
+#headlinething{
+    margin-top: 112px;
+    margin-bottom: 180px;
+}
+#Logo{
+     
+}
+#Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+.buttoncontainor p{
+      padding-bottom: 20px;
+      padding-top: 20px;
+}
+.buttoncontainor{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+} 
+#homebutton{
+        background-color: rgb(69, 68, 68);
+        border-radius: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+    p{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+.button{
+    
+    background-color: greenyellow;
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+
+}
+.button p{
+    color: black;
+}
+#Logo{
+    display: flex;
+    gap: 10px;
+    
+}
+img{
+        border-radius: 6px;
+    }
+#text{
+    text-align: center;
+}
+span{
+    background-color: rgb(67, 67, 67);
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+#companylogos{
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.underOurServices{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#OurServices{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#OurServices p{
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+article{
+    background-color: rgb(70, 70, 70);
+    border-radius: 6px;
+   
+    
+}
+@media screen and (max-width: 768px) {
+    .buttoncontainor {
+        display: none;
+         
+    }
+    .button{
+        display: none;
+    }
+    span{
+        
+    }
+
+    .underOurServices {    
+        flex-direction: row;
+    }
+    
+}
