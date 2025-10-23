@@ -13,9 +13,7 @@ p{
     margin-top: 112px;
     margin-bottom: 180px;
 }
-#Logo{
-     
-}
+
 #Navbar{
     display: flex;
     justify-content: space-evenly;
@@ -117,8 +115,10 @@ article{
         
     }
 
-    .underOurServices {    
+    .underOurServices {   
+    
         flex-direction: row;
+        
     }
     
 }
